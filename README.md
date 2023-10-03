@@ -1,12 +1,12 @@
-<h1 align="center"><a href="https://organize.mlh.io/participants/events/4390-kickstarting-hacktoberfest-with-acm-vit">Kicking Off Hacktoberfest 2023!</a></h1>
+<h1 align="center"><a href="">Kicking Off Hacktoberfest 2023!</a></h1>
 <p align="center">
-<img src="https://res.cloudinary.com/practicaldev/image/fetch/s--ijwmdoMc--/c_imagga_scale,f_auto,fl_progressive,h_420,q_auto,w_1000/https://dev-to-uploads.s3.amazonaws.com/uploads/articles/k8rdfvlf17di6gd9qyh6.jpg">
+<img src="https://miro.medium.com/v2/resize:fit:1400/format:webp/1*Lz_KFgbak2sUjwjOG9SZ4g.png">
 </p>
 
 <h2 align="center"> Cosmo Scribe </h2>
 
 <p align="center"> 
-"CosmoScribe" is a open source Flutter mobile application that serves as a user-friendly wrapper around NASA's API. This innovative app provides users with an engaging and educational experience by granting them access to a wealth of information and media related to space, celestial bodies, and the fascinating world of astronomy.
+Cosmo Scribe is a open source Flutter mobile application that serves as a user-friendly wrapper around NASA's API. This app provides users with an engaging and educational experience by granting them access to a wealth of information and media related to space, celestial bodies, and the fascinating world of astronomy.
 </p>
 
 
@@ -14,10 +14,10 @@
 <p align="center">Project Status</p>
 
 <p align = "center">
-  <img alt="stars" src="https://img.shields.io/github/stars/ACM-VIT/muscle_magic?color=eb4d4b&style=for-the-badge" />
-  <img alt="forks" src="https://img.shields.io/github/forks/ACM-VIT/muscle_magic?color=7ed6df&style=for-the-badge" />
-  <img alt="issuses" src="https://img.shields.io/github/issues/ACM-VIT/muscle_magic?color=f9ca24&style=for-the-badge" />
-  <img alt="prs" src="https://img.shields.io/github/issues-pr-closed/ACM-VIT/muscle_magic?color=686de0&style=for-the-badge" />
+  <img alt="stars" src="https://img.shields.io/github/stars/Harsh-Vipin/cosmoscribe?color=eb4d4b&style=for-the-badge" />
+  <img alt="forks" src="https://img.shields.io/github/forks/Harsh-Vipin/cosmoscribe?color=7ed6df&style=for-the-badge" />
+  <img alt="issuses" src="https://img.shields.io/github/issues/Harsh-Vipin/cosmoscribe?color=f9ca24&style=for-the-badge" />
+  <img alt="prs" src="https://img.shields.io/github/issues-pr-closed/Harsh-Vipin/cosmoscribe?color=686de0&style=for-the-badge" />
 </p>
 
 ---
