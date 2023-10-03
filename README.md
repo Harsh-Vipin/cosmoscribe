@@ -38,7 +38,6 @@ Cosmo Scribe is a open source Flutter mobile application that serves as a user-f
 <pre><code>git push origin [YOUR-BRANCH-NAME]</code></pre>
 - Create a pull request. Go to the target repository and click on the "Compare & pull request" button. **Make sure your PR description mentions which issues you're solving.**
 
- <img src="https://drive.google.com/u/1/uc?id=1f9JKAR-kRvCRGxIs_SAvegaYDPx53T9G&export=download"></img>
 - Wait for your request to be accepted.
 
 ---
@@ -58,33 +57,7 @@ For additional guidelines, refer to [participation rules](https://hacktoberfest.
 ---
 
 
-  
----
-## Overview
-
-Cosmo Scribe is a simple flutter app. 
-
-
 
 
 ---
-
-## Usage
-
-<!-- How To, Features, Installation etc. as subheadings in this section. example-->
-
-Lets get started!
-
-```console
-git remote add
-git fetch
-git merge
-```
-
----
-## Authors
-
-
-- [Harsh V](https://github.com/Harsh-Vipin)
-
 
