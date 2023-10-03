@@ -1,6 +1,6 @@
 <h1 align="center"><a href="https://organize.mlh.io/participants/events/4390-kickstarting-hacktoberfest-with-acm-vit">Kicking Off Hacktoberfest 2023!</a></h1>
 <p align="center">
-<img src="https://www.google.com/imgres?imgurl=https%3A%2F%2Fmiro.medium.com%2Fv2%2Fresize%3Afit%3A1400%2F1*-QXDiWByW0DozxYYWh_X2g.png&tbnid=FlLFMuTUvlGI5M&vet=12ahUKEwj-p9PYrdmBAxUBoekKHeOhCDIQMygAegQIARBI..i&imgrefurl=https%3A%2F%2Fmedium.com%2F%40munsifrazaofficial%2Fall-about-hacktoberfest-2023-9d59ec888af2&docid=xN_j2vcvyMIZ6M&w=1400&h=815&itg=1&q=hacktoberfest%202023&client=safari&ved=2ahUKEwj-p9PYrdmBAxUBoekKHeOhCDIQMygAegQIARBI">
+<img src="https://res.cloudinary.com/practicaldev/image/fetch/s--ijwmdoMc--/c_imagga_scale,f_auto,fl_progressive,h_420,q_auto,w_1000/https://dev-to-uploads.s3.amazonaws.com/uploads/articles/k8rdfvlf17di6gd9qyh6.jpg">
 </p>
 
 <h2 align="center"> Cosmo Scribe </h2>
