@@ -25,6 +25,7 @@ Cosmo Scribe is a open source Flutter mobile application that serves as a user-f
   <img alt="forks" src="https://img.shields.io/github/forks/Harsh-Vipin/cosmoscribe?color=7ed6df&style=for-the-badge" />
   <img alt="issuses" src="https://img.shields.io/github/issues/Harsh-Vipin/cosmoscribe?color=f9ca24&style=for-the-badge" />
   <img alt="prs" src="https://img.shields.io/github/issues-pr-closed/Harsh-Vipin/cosmoscribe?color=686de0&style=for-the-badge" />
+  <img alt="prs" src="https://img.shields.io/github/issues-closed-raw/Harsh-Vipin/cosmoscribe?color=686de0&style=for-the-badge" />
 </p>
 
 
