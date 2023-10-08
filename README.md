@@ -12,7 +12,7 @@ Cosmo Scribe is a open source Flutter mobile application that serves as a user-f
 <h3 align="center"> Images </h2>
 
 <p align = "center">
-<img src = "https://raw.githubusercontent.com/ansharkp/cosmoscribe/master/files/splash_creen.jpg" width="500" height="800">
+<img src = "https://raw.githubusercontent.com/ansharkp/cosmoscribe/master/files/splash_creen.jpg" width="300" height="500">
 </p>
 
 
