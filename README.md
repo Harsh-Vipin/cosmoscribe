@@ -7,6 +7,9 @@
 
 <p align="center"> 
 Cosmo Scribe is a open source Flutter mobile application that serves as a user-friendly wrapper around NASA's API. This app provides users with an engaging and educational experience by granting them access to a wealth of information and media related to space, celestial bodies, and the fascinating world of astronomy.
+
+<img src = "https://github.com/ansharkp/cosmoscribe/blob/master/files/splash_creen.jpg?raw=true">
+
 </p>
 
 
