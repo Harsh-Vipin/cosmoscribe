@@ -1,4 +1,4 @@
-import 'package:cosmoscribe/constants.dart';
+
 import 'package:flutter/material.dart';
 import 'package:fluttertoast/fluttertoast.dart';
 import 'package:http/http.dart' as http;
@@ -51,8 +51,9 @@ class _HomeScreenState extends State<HomeScreen> {
     final formattedStartDate = startDate.toLocal().toString().split(' ')[0];
     final formattedEndDate = endDate.toLocal().toString().split(' ')[0];
 
+    const demoKey="DEMO_KEY";
     final url =
-        'https://api.nasa.gov/neo/rest/v1/feed?start_date=$formattedStartDate&end_date=$formattedEndDate&api_key=$API_KEY';
+        'https://api.nasa.gov/neo/rest/v1/feed?start_date=$formattedStartDate&end_date=$formattedEndDate&api_key=$demoKey';
 
     try {
       setState(() {
