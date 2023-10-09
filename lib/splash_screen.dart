@@ -2,8 +2,6 @@ import 'package:flutter/material.dart';
 import 'package:http/http.dart' as http;
 import 'dart:convert';
 
-
-
 class APODViewer extends StatefulWidget {
   const APODViewer({super.key});
 
@@ -23,8 +21,7 @@ class _APODViewerState extends State<APODViewer> {
   }
 
   Future<void> fetchAPODData() async {
-    const apiKey = "DEMO_KEY";
-    const apiUrl = "https://api.nasa.gov/planetary/apod?api_key=$apiKey";
+    const apiUrl = "https://api.nasa.gov/planetary/apod?api_key=DEMO_KEY";
 
     final response = await http.get(Uri.parse(apiUrl));
 
@@ -45,21 +42,23 @@ class _APODViewerState extends State<APODViewer> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text("NASA APOD Viewer"),
+        title: const Text("NASA APOD Viewer"),
       ),
-      body: Center(
+      body: SingleChildScrollView(
         child: Column(
           mainAxisAlignment: MainAxisAlignment.center,
           crossAxisAlignment: CrossAxisAlignment.center,
-          children: <Widget>[
-            Expanded(
+          children: [
+            SizedBox(
+              height: MediaQuery.of(context).size.height * 0.3,
               child: Image.network(imageUrl, fit: BoxFit.cover),
             ),
             Padding(
               padding: const EdgeInsets.all(16.0),
               child: Text(
                 title,
-                style: TextStyle(fontSize: 20, fontWeight: FontWeight.bold),
+                style:
+                    const TextStyle(fontSize: 20, fontWeight: FontWeight.bold),
               ),
             ),
             Padding(
@@ -67,7 +66,7 @@ class _APODViewerState extends State<APODViewer> {
               child: SingleChildScrollView(
                 child: Text(
                   explanation,
-                  style: TextStyle(fontSize: 16),
+                  style: const TextStyle(fontSize: 16),
                 ),
               ),
             ),
