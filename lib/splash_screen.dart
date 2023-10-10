@@ -29,7 +29,7 @@ class _APODViewerState extends State<APODViewer> {
 
   Future<void> fetchAPODData() async {
     const apiUrl =
-        "https://api.nasa.gov/planetary/apod?api_key=AXepP1gWs5NhdUp7bvuZ4TW1EP37S1i2nFga3kTH";
+        "https://api.nasa.gov/planetary/apod?api_key=API_KEY";
 
     final response = await http.get(Uri.parse(apiUrl));
 
