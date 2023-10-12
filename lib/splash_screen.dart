@@ -1,5 +1,6 @@
 import 'dart:convert';
 
+import 'package:cosmoscribe/utils/constants.dart';
 import 'package:cosmoscribe/widgets/loader.dart';
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
@@ -21,6 +22,7 @@ class _APODViewerState extends State<APODViewer> {
   String title = "";
   String explanation = "";
 
+
   @override
   void initState() {
     super.initState();
@@ -28,8 +30,7 @@ class _APODViewerState extends State<APODViewer> {
   }
 
   Future<void> fetchAPODData() async {
-    const apiUrl =
-        "https://api.nasa.gov/planetary/apod?api_key=API_KEY";
+    final apiUrl =Constants.apodUrl;
 
     final response = await http.get(Uri.parse(apiUrl));
 
@@ -65,7 +66,7 @@ class _APODViewerState extends State<APODViewer> {
       appBar: AppBar(
         title: const Text("NASA APOD Viewer"),
       ),
-      body: FutureBuilder<void>(
+      body:FutureBuilder<void>(
         future: apodData,
         builder: (context, snapshot) {
           if (snapshot.connectionState == ConnectionState.waiting) {
@@ -115,11 +116,11 @@ class _APODViewerState extends State<APODViewer> {
                     padding: const EdgeInsets.all(16.0),
                     child: SingleChildScrollView(
                       child: Text(
-                        
+
                         explanation,
                         textAlign: TextAlign.justify,
                         style: GoogleFonts.aBeeZee(
-                        
+
                         fontSize: 16,
                         // fontWeight: FontWeight.bold,
                       ),
